@@ -1,7 +1,7 @@
 services:
   mariadb:
     image: mariadb:latest
-    container_name: prueba_convocatoria_mariadb
+    container_name: uapa_2025_p6_mariadb
     restart: no
     environment:
       MYSQL_ROOT_PASSWORD: password
